@@ -1,10 +1,12 @@
 //Desafio 1
-let IMC = parseInt(calculoIMC(1.84, 81));
-
 function calculoIMC(altura, peso) {
-    return peso / (altura * altura);
+    IMC = peso / (altura * altura);
+    return IMC.toFixed(2);
 }
-console.log(IMC + ' kg/m2.');
+let altura1 = 1.80;
+let peso = 79;
+let resultadoIMC = calculoIMC(altura1, peso);
+console.log(`Seu IMC é de ${resultadoIMC}kg/m2.`);
 
 //Desafio 2
 function calculoFatoração(numeroFatoracao) {
