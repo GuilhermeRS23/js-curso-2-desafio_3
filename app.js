@@ -63,3 +63,22 @@ function exibirTabuada(numero) {
 }
 let numeroTabuada = 5;
 exibirTabuada(numeroTabuada);
+
+//Desafio Aula 4 - Listas
+//Desafio 1
+let listaGenerica = [];
+
+//Desafio 2
+let linguagensDePrgramacao = ['JavaScript','C','C++', 'Kotlin','Python'];
+console.log(linguagensDePrgramacao);
+//Desafio3
+linguagensDePrgramacao.push('Java', 'Ruby','GoLang');
+console.log(linguagensDePrgramacao);
+
+//Desafio 4
+let listaNomes = ['Guilherme', 'Messi', 'Ronaldo'];
+console.log(listaNomes[0]);
+//Desafio 5
+console.log(listaNomes[1]);
+//Desafio 6
+console.log(listaNomes[listaNomes.length -1]);
